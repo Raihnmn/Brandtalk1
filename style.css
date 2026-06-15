@@ -576,17 +576,6 @@ html, body {
     box-shadow: var(--shadow-lg);
 }
 
-.btn-secondary {
-    background-color: transparent;
-    color: var(--color-slate-700);
-    border: 2px solid var(--color-slate-400);
-}
-
-.btn-secondary:hover {
-    background-color: var(--color-slate-50);
-    border-color: var(--color-primary-yellow);
-    color: var(--color-primary-yellow);
-}
 
 .btn-lg {
     padding: 1rem var(--spacing-2xl);
