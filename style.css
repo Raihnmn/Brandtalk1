@@ -828,19 +828,6 @@ html, body {
     color: var(--color-slate-600);
 }
 
-.trust-card {
-    position: absolute;
-    bottom: -20px;
-    left: -20px;
-    background-color: var(--color-white);
-    padding: var(--spacing-xl);
-    border-radius: var(--radius-xl);
-    box-shadow: var(--shadow-lg);
-    border: 1px solid var(--color-slate-100);
-    min-width: 220px;
-    z-index: 10;
-}
-
 .trust-number {
     font-size: var(--font-size-2xl);
     font-weight: 700;
@@ -877,10 +864,6 @@ html, body {
         width: 100%;
     }
 
-    .trust-card {
-        position: static;
-        margin-top: var(--spacing-xl);
-    }
 }
 
 @media (max-width: 768px) {
@@ -892,10 +875,6 @@ html, body {
         flex-direction: column;
     }
 
-    .trust-card {
-        position: static;
-        margin-top: var(--spacing-xl);
-    }
 }
 
 /* ============================================
