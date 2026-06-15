@@ -882,7 +882,7 @@ html, body {
    ============================================ */
 
 .trust-signals {
-    background-color: var(--color-slate-50);
+    background-color: var(--color-slate-100);
     border-top: 1px solid var(--color-slate-200);
     border-bottom: 1px solid var(--color-slate-200);
 }
@@ -1575,7 +1575,9 @@ html, body {
    ============================================ */
 
 .workflow {
-    background-color: var(--color-slate-50);
+    background-color: var(--color-slate-100);
+    border-top: 1px solid var(--color-slate-200);
+    border-bottom: 1px solid var(--color-slate-200);
     position: relative;
 }
 
@@ -2571,7 +2573,7 @@ html, body {
 }
 
 .corporate-solutions {
-    background-color: var(--color-slate-50);
+    background-color: var(--color-slate-100);
     border-top: 1px solid var(--color-slate-200);
     border-bottom: 1px solid var(--color-slate-200);
 }
