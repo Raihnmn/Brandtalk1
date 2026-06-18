@@ -3,18 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="BrandTalk - Solusi Merchandise & Promosi B2B Terpercaya untuk Perusahaan. Kapasitas produksi massal dengan kualitas premium.">
-    <title>BrandTalk - Solusi Merchandise & Promosi B2B Professional</title>
+    <meta name="description" content="Brandtalk Advertising - Platform percetakan digital, souvenir, merchandise dan barang promosi perusahaan terpercaya. Tumbler, mug custom, tas, flashdisk, banner, dan ratusan produk lainnya.">
+    <title>Brandtalk Advertising | Souvenir, Merchandise & Barang Promosi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-white text-slate-900">
+<body>
 
-    <nav class="navbar sticky top-0 bg-white shadow-sm z-50">
-        <div class="container-fluid">
-            <div class="navbar-content">
-                <div class="navbar-logo">
-                    <span class="logo-text">BrandTalk</span>
-                </div>
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="navbar-inner">
+                <a href="#hero" class="navbar-brand" data-scroll="#hero">
+                    <span class="brand-mark">B</span>
+                    <span class="brand-name">Brandtalk <span class="brand-sub">Advertising</span></span>
+                </a>
 
                 <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle menu">
                     <span class="hamburger-line"></span>
@@ -24,405 +29,442 @@
 
                 <div class="navbar-menu" id="navbarMenu">
                     <ul class="navbar-list">
-                        <li class="navbar-item"><a href="#hero" class="navbar-link">Beranda</a></li>
-                        <li class="navbar-item"><a href="#value-prop" class="navbar-link">Mengapa Kami</a></li>
-                        <li class="navbar-item"><a href="#services" class="navbar-link">Layanan Korporat</a></li>
-                        <li class="navbar-item"><a href="#workflow" class="navbar-link">Alur Pemesanan</a></li>
-                        <li class="navbar-item"><a href="#rfq" class="navbar-link">Penawaran</a></li>
+                        <li><a href="#hero" class="navbar-link" data-scroll="#hero">Beranda</a></li>
+                        <li><a href="#produk" class="navbar-link" data-scroll="#produk">Produk</a></li>
+                        <li><a href="#layanan" class="navbar-link" data-scroll="#layanan">Layanan</a></li>
+                        <li><a href="#workflow" class="navbar-link" data-scroll="#workflow">Cara Pesan</a></li>
+                        <li><a href="#rfq" class="navbar-link" data-scroll="#rfq">Kontak</a></li>
                     </ul>
                 </div>
 
-                <a href="#rfq" class="btn btn-primary btn-nav">Hubungi Sales</a>
+                <a href="#rfq" class="btn btn-primary btn-nav" data-scroll="#rfq">Minta Penawaran</a>
             </div>
         </div>
     </nav>
 
-    <section id="hero" class="hero section-py">
-        <div class="container-fluid">
-            <div class="grid grid-2-cols">
+    <!-- HERO -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-inner">
                 <div class="hero-content">
-                    <div class="badge">
-                        <span class="badge-dot"></span>
-                        <span class="badge-text">Solusi Merchandise B2B Terpercaya</span>
+                    <div class="hero-eyebrow">
+                        <span class="dot-pulse"></span>
+                        Percetakan Digital Terintegrasi · Bandung & Seluruh Indonesia
+                    </div>
+                    <h1 class="hero-title">Semua Kebutuhan <em>Cetak & Promosi</em> Perusahaan Anda</h1>
+                    <p class="hero-desc">Dari souvenir tumbler, mug custom, tas seminar, flashdisk, banner outdoor/indoor, hingga kemasan produk — semuanya di satu tempat. Kualitas terjamin, harga terjangkau, produksi cepat.</p>
+
+                    <div class="hero-pills">
+                        <span class="pill">🖨️ UV Printing</span>
+                        <span class="pill">☕ Sublimasi Mug</span>
+                        <span class="pill">📦 Custom Packaging</span>
+                        <span class="pill">🎁 Souvenir Promosi</span>
                     </div>
 
-                    <h1 class="hero-title">Merchandise Berkualitas Tinggi untuk Identitas Brand Perusahaan Anda</h1>
-
-                    <p class="hero-subtitle">Kapasitas pemesanan massal hingga 100.000+ unit tanpa kompromi kualitas. Kami menyediakan solusi merchandise premium yang dirancang khusus untuk kebutuhan perusahaan modern dari corporate gifts hingga merchandise internal branding dengan standar internasional.</p>
-
-                    <div class="value-points">
-                        <div class="value-point">
-                            <svg class="value-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m7 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                            </svg>
-                            <span>Pemesanan minimal fleksibel hingga 100.000+ unit</span>
-                        </div>
-                        <div class="value-point">
-                            <svg class="value-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m7 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                            </svg>
-                            <span>Desain custom & produksi berstandar ISO</span>
-                        </div>
-                        <div class="value-point">
-                            <svg class="value-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m7 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                            </svg>
-                            <span>Tim khusus account manager untuk setiap klien</span>
-                        </div>
-                    </div>
-
-                    <div class="cta-group">
-                        <button class="btn btn-primary btn-lg" data-scroll="#rfq">Minta Penawaran Harga</button>
+                    <div class="hero-actions">
+                        <a href="#rfq" class="btn btn-primary btn-hero" data-scroll="#rfq">Minta Penawaran Gratis</a>
+                        <a href="https://wa.me/62123456789" class="btn btn-outline btn-hero" target="_blank">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-9.746 9.798c0 2.719.738 5.377 2.13 7.702l-2.261 8.254 8.427-2.206c2.215 1.201 4.708 1.86 7.297 1.86 5.422 0 9.867-4.41 9.868-9.889 0-2.634-.674-5.194-1.949-7.412-1.276-2.217-3.079-4.158-5.243-5.379C15.416 3.749 12.637 3.012 9.705 3.013z"/></svg>
+                            Chat WhatsApp
+                        </a>
                     </div>
                 </div>
 
-                <div class="hero-visual">
-                    <div class="image-placeholder">
-                        <svg class="placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
-                        </svg>
-                        <p class="placeholder-text">Corporate Gifts Mockup</p>
-                        <p class="placeholder-subtext">Merchandise Berkualitas Premium</p>
+                <div class="hero-stats-panel">
+                    <div class="stat-card">
+                        <div class="stat-num">500<span>+</span></div>
+                        <div class="stat-label">Perusahaan Klien</div>
                     </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="trust-signals section-py">
-        <div class="container-fluid">
-            <div class="trust-container">
-                <h2 class="trust-title">Telah dipercaya oleh 500+ Perusahaan</h2>
-                <p class="trust-description">Dari startup hingga korporasi besar, kami telah membantu ratusan perusahaan mewujudkan strategi merchandise branding mereka dengan hasil maksimal.</p>
-
-                <div class="logos-grid">
-                    <div class="logo-item">
-                        <span>Logo Klien 1</span>
+                    <div class="stat-card">
+                        <div class="stat-num">1Jt<span>+</span></div>
+                        <div class="stat-label">Produk Tercetak</div>
                     </div>
-                    <div class="logo-item">
-                        <span>Logo Klien 2</span>
+                    <div class="stat-card">
+                        <div class="stat-num">10<span>+</span></div>
+                        <div class="stat-label">Tahun Pengalaman</div>
                     </div>
-                    <div class="logo-item">
-                        <span>Logo Klien 3</span>
-                    </div>
-                    <div class="logo-item">
-                        <span>Logo Klien 4</span>
-                    </div>
-                    <div class="logo-item">
-                        <span>Logo Klien 5</span>
-                    </div>
-                    <div class="logo-item">
-                        <span>Logo Klien 6</span>
+                    <div class="stat-card">
+                        <div class="stat-num">24<span>jam</span></div>
+                        <div class="stat-label">Respons Tim Sales</div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#f8fafc"/>
+            </svg>
+        </div>
     </section>
 
-    <section id="value-prop" class="value-proposition section-py">
-        <div class="container-fluid">
-            <div class="section-header">
-                <h2 class="section-title">Mengapa Memilih BrandTalk?</h2>
-                <p class="section-subtitle">Keunggulan B2B yang membuat kami menjadi pilihan vendor terpercaya</p>
-            </div>
-            <div class="features-showcase">
-                <div class="feature-showcase-item feature-left">
-                    <div class="feature-showcase-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-                        </svg>
-                    </div>
-                    <div class="feature-showcase-content">
-                        <h3 class="feature-showcase-title">Kapasitas Produksi Besar</h3>
-                        <p class="feature-showcase-description">Mampu menangani pesanan hingga 100.000+ unit dengan timeline yang fleksibel dan konsisten, tanpa mengorbankan kualitas.</p>
-                    </div>
-                </div>
-                <div class="feature-showcase-item feature-right">
-                    <div class="feature-showcase-content">
-                        <h3 class="feature-showcase-title">Harga Kompetitif B2B</h3>
-                        <p class="feature-showcase-description">Pricing struktur yang transparan dengan diskon volume menguntungkan untuk pemesanan massal dan negosiasi fleksibel.</p>
-                    </div>
-                    <div class="feature-showcase-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                        </svg>
-                    </div>
-                </div>
-                <div class="feature-showcase-item feature-left">
-                    <div class="feature-showcase-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
-                        </svg>
-                    </div>
-                    <div class="feature-showcase-content">
-                        <h3 class="feature-showcase-title">Kualitas Terjamin</h3>
-                        <p class="feature-showcase-description">Sertifikasi ISO dan quality control ketat di setiap tahap produksi untuk memastikan hasil yang memuaskan.</p>
-                    </div>
-                </div>
-                <div class="feature-showcase-item feature-right">
-                    <div class="feature-showcase-content">
-                        <h3 class="feature-showcase-title">Layanan Sampling Premium</h3>
-                        <p class="feature-showcase-description">Proses sampling cepat dengan turnaround time singkat dan approval mudah sebelum produksi massal dimulai.</p>
-                    </div>
-                    <div class="feature-showcase-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path>
-                        </svg>
-                    </div>
-                </div>
+    <!-- TRUST BAR -->
+    <section class="trust-bar">
+        <div class="container">
+            <p class="trust-label">Dipercaya ratusan perusahaan di Indonesia</p>
+            <div class="trust-logos">
+                <div class="trust-logo-item">PT Perusahaan A</div>
+                <div class="trust-logo-item">CV Mitra B</div>
+                <div class="trust-logo-item">PT Industri C</div>
+                <div class="trust-logo-item">Korporat D</div>
+                <div class="trust-logo-item">PT Grup E</div>
+                <div class="trust-logo-item">Tbk F</div>
             </div>
         </div>
     </section>
 
-    <section id="services" class="corporate-solutions section-py">
-        <div class="container-fluid">
-            <div class="section-header">
-                <h2 class="section-title">Layanan Korporat Kami</h2>
-                <p class="section-subtitle">Solusi lengkap untuk kebutuhan merchandise dan promosi perusahaan Anda</p>
+    <!-- PRODUK UNGGULAN -->
+    <section id="produk" class="section products-section">
+        <div class="container">
+            <div class="section-head">
+                <p class="section-eyebrow">Katalog Produk</p>
+                <h2 class="section-title">Ratusan Pilihan Produk Promosi</h2>
+                <p class="section-sub">Pilih kategori yang sesuai kebutuhan perusahaan Anda</p>
             </div>
 
-            <div class="grid grid-3-cols">
-                <div class="service-card">
-                    <div class="service-header">
-                        <div class="service-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C6.5 6.75 3 10.671 3 15.5c0 4.446 2.759 8.286 6.635 9.91m0-13c5.5-.5 9 3.421 9 8.25 0 4.446-2.759 8.286-6.635 9.91m0-13C9.5 3.75 7.5.75 4.5.75S.5 3.75 2.5 6.253v13C1.5 18.75 3.5 21.75 6.5 21.75s6-3 6-5.75"></path>
-                            </svg>
-                        </div>
-                    </div>
-                    <h3 class="service-title">Seminar Kits</h3>
-                    <p class="service-description">Paket lengkap merchandise untuk acara seminar, workshop, dan konferensi korporat Anda.</p>
-                    <a href="#rfq" class="service-link">Pelajari Lebih Lanjut →</a>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-header">
-                        <div class="service-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v-1m0 0H9m3 0h3m-6 4h12a2 2 0 012 2v6a2 2 0 01-2 2H3a2 2 0 01-2-2v-6a2 2 0 012-2zm0 0V7a1 1 0 011-1h2a1 1 0 011-1h2a1 1 0 011 1h2a1 1 0 011 1v4z"></path>
-                            </svg>
-                        </div>
-                    </div>
-                    <h3 class="service-title">Corporate Gifting</h3>
-                    <p class="service-description">Gift premium untuk klien, mitra bisnis, dan karyawan dengan packaging eksklusif berlogo.</p>
-                    <a href="#rfq" class="service-link">Pelajari Lebih Lanjut →</a>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-header">
-                        <div class="service-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 008.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
-                            </svg>
-                        </div>
-                    </div>
-                    <h3 class="service-title">Custom Packaging</h3>
-                    <p class="service-description">Kemasan custom dengan branding lengkap untuk produk merchandise dan promotional items Anda.</p>
-                    <a href="#rfq" class="service-link">Pelajari Lebih Lanjut →</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="featured-products" class="featured-products section-py">
-        <div class="container-fluid">
-            <div class="section-header text-center mb-3xl">
-                <h2 class="section-title">Kategori Produk Unggulan</h2>
-                <p class="section-subtitle">Pilih kategori dan jelajahi ribuan produk berkualitas dengan custom branding</p>
-            </div>
-
-            <div class="featured-grid">
+            <div class="product-tabs-wrapper">
                 <div class="category-tabs">
-                    <button class="category-tab active" data-category="merchandise">
-                        <div class="tab-icon">📦</div>
-                        <div class="tab-content">
-                            <h3>Merchandise</h3>
-                            <p>200+ Pilihan</p>
-                        </div>
-                    </button>
-
-                    <button class="category-tab" data-category="seminar">
-                        <div class="tab-icon">📋</div>
-                        <div class="tab-content">
-                            <h3>Seminar Kit</h3>
-                            <p>50+ Paket</p>
-                        </div>
-                    </button>
-
-                    <button class="category-tab" data-category="drinkware">
-                        <div class="tab-icon">🥤</div>
-                        <div class="tab-content">
-                            <h3>Drinkware</h3>
-                            <p>100+ Varian</p>
-                        </div>
-                    </button>
+                    <button class="category-tab active" data-category="souvenir">🎁 Souvenir</button>
+                    <button class="category-tab" data-category="drinkware">☕ Drinkware</button>
+                    <button class="category-tab" data-category="tas">👜 Tas & Seminar</button>
+                    <button class="category-tab" data-category="printing">🖨️ Digital Printing</button>
+                    <button class="category-tab" data-category="flashdisk">💾 Flashdisk</button>
                 </div>
 
                 <div class="carousel-section">
-                    <div class="carousel-container active" data-category="merchandise">
+                    <!-- Souvenir -->
+                    <div class="carousel-container active" data-category="souvenir">
+                        <button class="carousel-nav prev">&#8249;</button>
                         <div class="carousel-wrapper">
                             <div class="product-card active">
-                                <div class="product-image merchandise-bg">👕</div>
-                                <h3 class="product-name">Polo Shirt</h3>
-                                <p class="product-price">Rp 35.000</p>
-                                <p class="product-desc">Cotton 100% dengan custom printing</p>
+                                <div class="product-emoji">🔑</div>
+                                <h3 class="product-name">Gantungan Kunci</h3>
+                                <p class="product-desc">Custom logo, berbagai material akrilik, karet, metal</p>
+                                <span class="product-badge">Min. 100 pcs</span>
                             </div>
                             <div class="product-card">
-                                <div class="product-image merchandise-bg">👜</div>
-                                <h3 class="product-name">Tote Bag</h3>
-                                <p class="product-price">Rp 28.000</p>
-                                <p class="product-desc">Canvas tebal dengan logo brodery</p>
+                                <div class="product-emoji">📌</div>
+                                <h3 class="product-name">Pin Custom</h3>
+                                <p class="product-desc">Full color printing, diameter 44mm–58mm</p>
+                                <span class="product-badge">Min. 100 pcs</span>
                             </div>
                             <div class="product-card">
-                                <div class="product-image merchandise-bg">🧢</div>
-                                <h3 class="product-name">Baseball Cap</h3>
-                                <p class="product-price">Rp 32.000</p>
-                                <p class="product-desc">Premium cotton twill material</p>
+                                <div class="product-emoji">🗓️</div>
+                                <h3 class="product-name">Kalender Meja / Dinding</h3>
+                                <p class="product-desc">Custom layout branding perusahaan, cetak full color</p>
+                                <span class="product-badge">Min. 50 pcs</span>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-emoji">☂️</div>
+                                <h3 class="product-name">Payung Promosi</h3>
+                                <p class="product-desc">Lipat, golf, dan mobil — sablon logo perusahaan</p>
+                                <span class="product-badge">Min. 50 pcs</span>
                             </div>
                         </div>
-                        <div class="carousel-controls">
-                            <button class="carousel-nav prev" data-category="merchandise">❮</button>
-                            <div class="carousel-dots">
-                                <button class="dot active"></button>
-                                <button class="dot"></button>
-                                <button class="dot"></button>
-                            </div>
-                            <button class="carousel-nav next" data-category="merchandise">❯</button>
+                        <button class="carousel-nav next">&#8250;</button>
+                        <div class="carousel-dots">
+                            <button class="dot active"></button>
+                            <button class="dot"></button>
+                            <button class="dot"></button>
+                            <button class="dot"></button>
                         </div>
                     </div>
 
-                    <div class="carousel-container" data-category="seminar">
-                        <div class="carousel-wrapper">
-                            <div class="product-card active">
-                                <div class="product-image seminarkit-bg">📚</div>
-                                <h3 class="product-name">Basic Seminar Kit</h3>
-                                <p class="product-price">Rp 45.000</p>
-                                <p class="product-desc">Notebook, pen, dan name badge</p>
-                            </div>
-                            <div class="product-card">
-                                <div class="product-image seminarkit-bg">🎁</div>
-                                <h3 class="product-name">Premium Seminar Kit</h3>
-                                <p class="product-price">Rp 75.000</p>
-                                <p class="product-desc">Lengkap dengan goodie bag & lanyard</p>
-                            </div>
-                            <div class="product-card">
-                                <div class="product-image seminarkit-bg">🎪</div>
-                                <h3 class="product-name">VIP Seminar Kit</h3>
-                                <p class="product-price">Rp 120.000</p>
-                                <p class="product-desc">Eksklusif dengan gift premium</p>
-                            </div>
-                        </div>
-                        <div class="carousel-controls">
-                            <button class="carousel-nav prev" data-category="seminar">❮</button>
-                            <div class="carousel-dots">
-                                <button class="dot active"></button>
-                                <button class="dot"></button>
-                                <button class="dot"></button>
-                            </div>
-                            <button class="carousel-nav next" data-category="seminar">❯</button>
-                        </div>
-                    </div>
-
+                    <!-- Drinkware -->
                     <div class="carousel-container" data-category="drinkware">
+                        <button class="carousel-nav prev">&#8249;</button>
                         <div class="carousel-wrapper">
                             <div class="product-card active">
-                                <div class="product-image drinkware-bg">☕</div>
-                                <h3 class="product-name">Ceramic Mug</h3>
-                                <p class="product-price">Rp 18.000</p>
-                                <p class="product-desc">350ml dengan print full color</p>
+                                <div class="product-emoji">🥤</div>
+                                <h3 class="product-name">Tumbler Custom</h3>
+                                <p class="product-desc">Cetak UV langsung di badan tumbler, tahan lama</p>
+                                <span class="product-badge">Min. 50 pcs</span>
                             </div>
                             <div class="product-card">
-                                <div class="product-image drinkware-bg">🧊</div>
-                                <h3 class="product-name">Stainless Tumbler</h3>
-                                <p class="product-price">Rp 65.000</p>
-                                <p class="product-desc">500ml keeping hot/cold 12 jam</p>
+                                <div class="product-emoji">☕</div>
+                                <h3 class="product-name">Mug Warna / Bunglon</h3>
+                                <p class="product-desc">Magic mug, mug warna, mug bunglon — sublimasi premium</p>
+                                <span class="product-badge">Min. 50 pcs</span>
                             </div>
                             <div class="product-card">
-                                <div class="product-image drinkware-bg">🥤</div>
-                                <h3 class="product-name">Plastic Cup 500ml</h3>
-                                <p class="product-price">Rp 8.000</p>
-                                <p class="product-desc">Eco-friendly dengan custom design</p>
+                                <div class="product-emoji">🫙</div>
+                                <h3 class="product-name">Gelas Mug Custom</h3>
+                                <p class="product-desc">Mug sendok, mug biasa full color dengan desain custom</p>
+                                <span class="product-badge">Min. 50 pcs</span>
                             </div>
                         </div>
-                        <div class="carousel-controls">
-                            <button class="carousel-nav prev" data-category="drinkware">❮</button>
-                            <div class="carousel-dots">
-                                <button class="dot active"></button>
-                                <button class="dot"></button>
-                                <button class="dot"></button>
+                        <button class="carousel-nav next">&#8250;</button>
+                        <div class="carousel-dots">
+                            <button class="dot active"></button>
+                            <button class="dot"></button>
+                            <button class="dot"></button>
+                        </div>
+                    </div>
+
+                    <!-- Tas -->
+                    <div class="carousel-container" data-category="tas">
+                        <button class="carousel-nav prev">&#8249;</button>
+                        <div class="carousel-wrapper">
+                            <div class="product-card active">
+                                <div class="product-emoji">🛍️</div>
+                                <h3 class="product-name">Tas Spunbond</h3>
+                                <p class="product-desc">Goodie bag, totebag spunbond, sablon satu/dua warna</p>
+                                <span class="product-badge">Min. 100 pcs</span>
                             </div>
-                            <button class="carousel-nav next" data-category="drinkware">❯</button>
+                            <div class="product-card">
+                                <div class="product-emoji">📋</div>
+                                <h3 class="product-name">Tas Seminar</h3>
+                                <p class="product-desc">Paket lengkap: tas, notebook, pulpen, tali ID card</p>
+                                <span class="product-badge">Min. 50 pcs</span>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-emoji">💼</div>
+                                <h3 class="product-name">Tas Laptop / Backpack</h3>
+                                <p class="product-desc">Branding bordir atau cetak, material premium</p>
+                                <span class="product-badge">Min. 30 pcs</span>
+                            </div>
+                        </div>
+                        <button class="carousel-nav next">&#8250;</button>
+                        <div class="carousel-dots">
+                            <button class="dot active"></button>
+                            <button class="dot"></button>
+                            <button class="dot"></button>
+                        </div>
+                    </div>
+
+                    <!-- Printing -->
+                    <div class="carousel-container" data-category="printing">
+                        <button class="carousel-nav prev">&#8249;</button>
+                        <div class="carousel-wrapper">
+                            <div class="product-card active">
+                                <div class="product-emoji">🪧</div>
+                                <h3 class="product-name">Banner & MMT</h3>
+                                <p class="product-desc">X-Banner, Y-Banner, Roll Banner, MMT outdoor/indoor</p>
+                                <span class="product-badge">Custom ukuran</span>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-emoji">🗂️</div>
+                                <h3 class="product-name">Backdrop & Backwall</h3>
+                                <p class="product-desc">Pop-up counter, event desk, backdrop acara perusahaan</p>
+                                <span class="product-badge">Custom ukuran</span>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-emoji">🏆</div>
+                                <h3 class="product-name">Plakat Akrilik & Kayu</h3>
+                                <p class="product-desc">Award, sertifikat plakat, ukiran laser presisi tinggi</p>
+                                <span class="product-badge">Min. 10 pcs</span>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-emoji">🔖</div>
+                                <h3 class="product-name">Stiker & Kartu Nama</h3>
+                                <p class="product-desc">Stiker print & cut, stiker makanan, kartu nama eksklusif</p>
+                                <span class="product-badge">Min. 100 pcs</span>
+                            </div>
+                        </div>
+                        <button class="carousel-nav next">&#8250;</button>
+                        <div class="carousel-dots">
+                            <button class="dot active"></button>
+                            <button class="dot"></button>
+                            <button class="dot"></button>
+                            <button class="dot"></button>
+                        </div>
+                    </div>
+
+                    <!-- Flashdisk -->
+                    <div class="carousel-container" data-category="flashdisk">
+                        <button class="carousel-nav prev">&#8249;</button>
+                        <div class="carousel-wrapper">
+                            <div class="product-card active">
+                                <div class="product-emoji">💿</div>
+                                <h3 class="product-name">Flashdisk Kartu</h3>
+                                <p class="product-desc">Tipis seperti kartu, cetak full color dua sisi</p>
+                                <span class="product-badge">Min. 50 pcs</span>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-emoji">🔩</div>
+                                <h3 class="product-name">Flashdisk Metal</h3>
+                                <p class="product-desc">Bahan aluminium premium, laser engraving logo</p>
+                                <span class="product-badge">Min. 50 pcs</span>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-emoji">🧴</div>
+                                <h3 class="product-name">Flashdisk Kulit</h3>
+                                <p class="product-desc">Material kulit sintetis, kesan eksklusif dan mewah</p>
+                                <span class="product-badge">Min. 50 pcs</span>
+                            </div>
+                        </div>
+                        <button class="carousel-nav next">&#8250;</button>
+                        <div class="carousel-dots">
+                            <button class="dot active"></button>
+                            <button class="dot"></button>
+                            <button class="dot"></button>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="text-center mt-2xl" style="margin-top: 4rem;">
-                <a class="btn btn-primary">Lihat Produk Selengkapnya </a>
+            <div class="center-action">
+                <a href="#rfq" class="btn btn-primary" data-scroll="#rfq">Tanyakan Produk Lainnya →</a>
             </div>
         </div>
     </section>
 
-    <section id="workflow" class="workflow section-py">
-        <div class="container-fluid">
-            <div class="section-header">
-                <h2 class="section-title">Alur Pemesanan B2B Kami</h2>
-                <p class="section-subtitle">Proses yang transparan dan efisien untuk memastikan kepuasan Anda</p>
+    <!-- KEUNGGULAN -->
+    <section id="layanan" class="section why-section">
+        <div class="container">
+            <div class="section-head">
+                <p class="section-eyebrow">Mengapa Brandtalk?</p>
+                <h2 class="section-title">Satu Platform, Semua Solusi Cetak</h2>
             </div>
 
-            <div class="timeline-container">
-                <div class="timeline-line"></div>
-                <div class="timeline-step">
-                    <div class="timeline-marker">
-                        <div class="marker-circle">💬</div>
-                    </div>
-                    <div class="timeline-content">
-                        <h3 class="timeline-title">Konsultasi Gratis</h3>
-                        <p class="timeline-description">Tim account manager kami siap memahami kebutuhan merchandise, budget, dan timeline Anda secara detail.</p>
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-icon">⚡</div>
+                    <h3>Produksi Cepat</h3>
+                    <p>Notifikasi email langsung ketika produksi selesai. Tidak perlu antri dan menunggu lama.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">🖨️</div>
+                    <h3>Mesin UV & Sublimasi</h3>
+                    <p>Teknologi UV printing dan sublimasi modern untuk hasil cetak presisi dan warna yang tajam.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">💰</div>
+                    <h3>Harga Transparan</h3>
+                    <p>Pricing jelas, diskon volume untuk pesanan massal. Negosiasi fleksibel sesuai budget.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">📱</div>
+                    <h3>Pesan via Smartphone</h3>
+                    <p>Cukup dari genggaman tangan — pesan kapan dan di mana saja, 24 jam 7 hari.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">🔒</div>
+                    <h3>Transaksi Aman</h3>
+                    <p>Keamanan transaksi dan identitas pelanggan selalu kami jaga dengan sistem terpercaya.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon">🌟</div>
+                    <h3>Kualitas Terjamin</h3>
+                    <p>QC ketat di setiap tahap produksi. 500+ perusahaan telah mempercayai hasil kerja kami.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ALUR PESAN -->
+    <section id="workflow" class="section workflow-section">
+        <div class="container">
+            <div class="section-head">
+                <p class="section-eyebrow">Cara Pesan</p>
+                <h2 class="section-title">Mudah, Cepat, Terpercaya</h2>
+            </div>
+
+            <div class="workflow-steps">
+                <div class="step">
+                    <div class="step-num">01</div>
+                    <div class="step-body">
+                        <h3>Konsultasi Gratis</h3>
+                        <p>Hubungi tim kami via WhatsApp atau isi form penawaran. Ceritakan kebutuhan, jumlah, dan budget Anda.</p>
                     </div>
                 </div>
-
-                <div class="timeline-step">
-                    <div class="timeline-marker">
-                        <div class="marker-circle">🎨</div>
-                    </div>
-                    <div class="timeline-content">
-                        <h3 class="timeline-title">Pembuatan Sampel</h3>
-                        <p class="timeline-description">Kami membuat sampel custom sesuai desain dan spesifikasi Anda dalam waktu 5-7 hari kerja.</p>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-num">02</div>
+                    <div class="step-body">
+                        <h3>Sampel & Desain</h3>
+                        <p>Kami kirimkan desain mockup dan sampel fisik dalam 5–7 hari kerja untuk persetujuan Anda.</p>
                     </div>
                 </div>
-
-                <div class="timeline-step">
-                    <div class="timeline-marker">
-                        <div class="marker-circle">⚙️</div>
-                    </div>
-                    <div class="timeline-content">
-                        <h3 class="timeline-title">Produksi Massal</h3>
-                        <p class="timeline-description">Setelah approval sampel, kami memulai produksi dengan quality control ketat dan pengiriman ON TIME.</p>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-num">03</div>
+                    <div class="step-body">
+                        <h3>Produksi Massal</h3>
+                        <p>Setelah acc, produksi dimulai dengan QC ketat. Anda mendapat update progress via email.</p>
                     </div>
                 </div>
-
-                <div class="timeline-step">
-                    <div class="timeline-marker">
-                        <div class="marker-circle">📦</div>
-                    </div>
-                    <div class="timeline-content">
-                        <h3 class="timeline-title">Pengiriman & Support</h3>
-                        <p class="timeline-description">Produk dikirim dengan packaging aman dan premium. Tim support kami siap membantu pasca-pengiriman.</p>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-num">04</div>
+                    <div class="step-body">
+                        <h3>Pengiriman & Selesai</h3>
+                        <p>Produk dikemas aman dan dikirim ke seluruh Indonesia. Layanan purna jual siap membantu.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="rfq" class="lead-generation section-py">
-        <div class="container-fluid">
-            <div class="rfq-container">
-                <div class="rfq-form-wrapper">
-                    <h2 class="rfq-title">Dapatkan Penawaran Custom Merchandise Anda Hari Ini</h2>
-                    <p class="rfq-subtitle">Isi form singkat di bawah. Tim sales kami akan menghubungi Anda dalam 24 jam.</p>
+    <!-- TENTANG -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-inner">
+                <div class="about-text">
+                    <p class="section-eyebrow">Tentang Kami</p>
+                    <h2>Brandtalk Advertising — Percetakan Digital Terintegrasi</h2>
+                    <p>Kami adalah platform yang mengintegrasikan layanan cetak souvenir, merchandise, dan barang promosi dalam satu sistem digital yang mudah diakses. Dengan mesin UV printing dan sublimasi modern, kami melayani pembuatan tumbler custom, mug souvenir, percetakan banner, plakat akrilik, stiker, kemasan produk, kartu nama, nota, agenda, dan ratusan produk lainnya.</p>
+                    <p>Bergabunglah bersama ribuan pelanggan dan nikmati kemudahan belanja tanpa antri — cukup dari smartphone Anda.</p>
+                    <a href="#rfq" class="btn btn-primary" data-scroll="#rfq">Hubungi Kami Sekarang</a>
+                </div>
+                <div class="about-highlights">
+                    <div class="highlight">
+                        <strong>Souvenir & Merchandise</strong>
+                        <span>Tumbler, gantungan kunci, bantal leher, bantal mobil, pin, payung, flashdisk custom, dan lainnya</span>
+                    </div>
+                    <div class="highlight">
+                        <strong>Digital Printing</strong>
+                        <span>MMT outdoor/indoor, banner, backdrop, plakat, stiker, ID card PVC, kemasan makanan</span>
+                    </div>
+                    <div class="highlight">
+                        <strong>Percetakan Dokumen</strong>
+                        <span>Kartu nama, nota, buku agenda, annual report, tali ID card sablon</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- RFQ FORM -->
+    <section id="rfq" class="section rfq-section">
+        <div class="container">
+            <div class="rfq-inner">
+                <div class="rfq-left">
+                    <p class="section-eyebrow">Minta Penawaran</p>
+                    <h2>Dapatkan Harga Terbaik Hari Ini</h2>
+                    <p>Isi form singkat di bawah, tim sales kami akan menghubungi Anda dalam <strong>24 jam</strong>.</p>
+
+                    <div class="rfq-benefits">
+                        <div class="rfq-benefit">
+                            <span class="benefit-check">✓</span>
+                            <span>Konsultasi dan desain mockup gratis</span>
+                        </div>
+                        <div class="rfq-benefit">
+                            <span class="benefit-check">✓</span>
+                            <span>Harga disesuaikan dengan volume pesanan</span>
+                        </div>
+                        <div class="rfq-benefit">
+                            <span class="benefit-check">✓</span>
+                            <span>Pengiriman ke seluruh Indonesia</span>
+                        </div>
+                        <div class="rfq-benefit">
+                            <span class="benefit-check">✓</span>
+                            <span>Notifikasi email ketika produksi selesai</span>
+                        </div>
+                    </div>
+
+                    <div class="rfq-contacts">
+                        <a href="https://wa.me/62123456789" class="contact-btn wa-btn" target="_blank">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-9.746 9.798c0 2.719.738 5.377 2.13 7.702l-2.261 8.254 8.427-2.206c2.215 1.201 4.708 1.86 7.297 1.86 5.422 0 9.867-4.41 9.868-9.889 0-2.634-.674-5.194-1.949-7.412-1.276-2.217-3.079-4.158-5.243-5.379C15.416 3.749 12.637 3.012 9.705 3.013z"/></svg>
+                            WhatsApp: +62 123 456 789
+                        </a>
+                        <a href="mailto:info@brandtalk.id" class="contact-btn email-btn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            info@brandtalk.id
+                        </a>
+                    </div>
+                </div>
+
+                <div class="rfq-right">
                     <form class="rfq-form" id="rfqForm" novalidate>
                         <div class="form-row">
                             <div class="form-group">
@@ -444,198 +486,128 @@
                                 <span class="form-error"></span>
                             </div>
                             <div class="form-group">
-                                <label for="phone" class="form-label">Nomor HP/Telepon *</label>
-                                <input type="tel" id="phone" name="phone" class="form-input" placeholder="081234567890" required>
+                                <label for="phone" class="form-label">Nomor WhatsApp *</label>
+                                <input type="tel" id="phone" name="phone" class="form-input" placeholder="08123456789" required>
                                 <span class="form-error"></span>
                             </div>
                         </div>
 
-                        <div class="form-group full-width">
-                            <label for="productType" class="form-label">Jenis Merchandise yang Dibutuhkan *</label>
+                        <div class="form-group">
+                            <label for="productType" class="form-label">Produk yang Dibutuhkan *</label>
                             <select id="productType" name="productType" class="form-input" required>
-                                <option value="">-- Pilih Jenis Merchandise --</option>
-                                <option value="seminar-kits">Seminar Kits</option>
-                                <option value="corporate-gifting">Corporate Gifting</option>
-                                <option value="custom-packaging">Custom Packaging</option>
-                                <option value="lainnya">Lainnya</option>
+                                <option value="">-- Pilih Kategori Produk --</option>
+                                <optgroup label="Souvenir & Merchandise">
+                                    <option value="tumbler">Tumbler / Souvenir Tumbler</option>
+                                    <option value="mug">Mug Custom (Warna/Bunglon/Sendok)</option>
+                                    <option value="gantungan-kunci">Gantungan Kunci</option>
+                                    <option value="pin">Pin Custom</option>
+                                    <option value="flashdisk">Flashdisk Custom</option>
+                                    <option value="payung">Payung Promosi</option>
+                                    <option value="kalender">Kalender</option>
+                                </optgroup>
+                                <optgroup label="Tas & Seminar Kit">
+                                    <option value="tas-spunbond">Tas Spunbond / Goodie Bag</option>
+                                    <option value="tas-seminar">Tas Seminar Kit</option>
+                                    <option value="tas-laptop">Tas Laptop / Backpack</option>
+                                </optgroup>
+                                <optgroup label="Digital Printing">
+                                    <option value="banner">Banner / MMT / Backdrop</option>
+                                    <option value="plakat">Plakat Akrilik / Kayu</option>
+                                    <option value="stiker">Stiker & Cetak Digital</option>
+                                    <option value="kartu-nama">Kartu Nama & Nota</option>
+                                    <option value="kemasan">Cetak Kemasan Produk</option>
+                                </optgroup>
+                                <option value="lainnya">Produk Lainnya</option>
                             </select>
                             <span class="form-error"></span>
                         </div>
 
-                        <div class="form-group full-width">
-                            <label for="quantity" class="form-label">Perkiraan Jumlah Unit *</label>
-                            <input type="number" id="quantity" name="quantity" class="form-input" placeholder="Contoh: 5000" min="100" required>
+                        <div class="form-group">
+                            <label for="quantity" class="form-label">Perkiraan Jumlah (pcs) *</label>
+                            <input type="number" id="quantity" name="quantity" class="form-input" placeholder="Contoh: 500" min="50" required>
                             <span class="form-error"></span>
                         </div>
 
-                        <div class="form-group full-width">
-                            <label for="message" class="form-label">Deskripsi Kebutuhan (Opsional)</label>
-                            <textarea id="message" name="message" class="form-input form-textarea" placeholder="Jelaskan kebutuhan merchandise Anda..." rows="3"></textarea>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Keterangan Tambahan</label>
+                            <textarea id="message" name="message" class="form-input form-textarea" placeholder="Ceritakan kebutuhan, desain, atau referensi yang Anda inginkan..." rows="3"></textarea>
                         </div>
 
                         <div class="form-checkbox">
                             <input type="checkbox" id="agreement" name="agreement" required>
-                            <label for="agreement">Saya setuju dengan kebijakan privasi BrandTalk</label>
+                            <label for="agreement">Saya setuju dengan kebijakan privasi Brandtalk Advertising</label>
                         </div>
 
-                        <button type="submit" class="btn btn-primary btn-lg full-width">Kirim Permintaan Penawaran</button>
+                        <button type="submit" class="btn btn-primary btn-submit">Kirim Permintaan Penawaran</button>
                     </form>
                 </div>
-                <div class="rfq-benefits">
-                    <div class="benefits-box">
-                        <h3 class="benefits-title">Mengapa Menghubungi Kami?</h3>
-                        
-                        <div class="benefit-item">
-                            <div class="benefit-icon">✓</div>
-                            <div class="benefit-text">
-                                <strong>Respons Cepat</strong>
-                                <p>Tim sales kami siap dalam 24 jam</p>
-                            </div>
-                        </div>
-
-                        <div class="benefit-item">
-                            <div class="benefit-icon">✓</div>
-                            <div class="benefit-text">
-                                <strong>Konsultasi Gratis</strong>
-                                <p>Diskusikan kebutuhan tanpa biaya</p>
-                            </div>
-                        </div>
-
-                        <div class="benefit-item">
-                            <div class="benefit-icon">✓</div>
-                            <div class="benefit-text">
-                                <strong>Solusi Custom</strong>
-                                <p>Disesuaikan dengan budget Anda</p>
-                            </div>
-                        </div>
-
-                        <div class="benefit-item">
-                            <div class="benefit-icon">✓</div>
-                            <div class="benefit-text">
-                                <strong>Dipercaya 500+ Perusahaan</strong>
-                                <p>Track record terbukti</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="quick-contact-box">
-                        <p class="quick-contact-label">Hubungi Kami Langsung:</p>
-                        <a href="https://wa.me/62123456789" class="contact-link-large whatsapp-link">
-                            <svg viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-9.746 9.798c0 2.719.738 5.377 2.13 7.702l-2.261 8.254 8.427-2.206c2.215 1.201 4.708 1.86 7.297 1.86 5.422 0 9.867-4.41 9.868-9.889 0-2.634-.674-5.194-1.949-7.412-1.276-2.217-3.079-4.158-5.243-5.379C15.416 3.749 12.637 3.012 9.705 3.013zm0 0"></path>
-                            </svg>
-                            <div>
-                                <div class="contact-label">WhatsApp</div>
-                                <div class="contact-value">+62 123 456 789</div>
-                            </div>
-                        </a>
-                        <a href="tel:+621234567890" class="contact-link-large phone-link">
-                            <svg viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"></path>
-                            </svg>
-                            <div>
-                                <div class="contact-label">Telepon</div>
-                                <div class="contact-value">+62 (21) 1234567</div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
 
-    <!-- Company Profile Section for SEO -->
-    <section id="company-profile" class="company-profile section-py">
-        <div class="container-fluid">
-            <div class="profile-wrapper">
-                <div class="profile-content">
-                    <h2 class="profile-title">Tentang BrandTalk</h2>
-                    <p class="profile-description">BrandTalk adalah perusahaan merchandise dan promosi terpercaya yang telah melayani lebih dari 500+ perusahaan di Indonesia. Dengan pengalaman lebih dari 10 tahun di industri ini, kami berkomitmen untuk memberikan solusi merchandise berkualitas tinggi dengan harga kompetitif dan layanan terbaik.</p>
-                    
-                    <div class="profile-stats">
-                        <div class="stat">
-                            <div class="stat-number">500+</div>
-                            <div class="stat-text">Klien Puas</div>
-                        </div>
-                        <div class="stat">
-                            <div class="stat-number">10+</div>
-                            <div class="stat-text">Tahun Pengalaman</div>
-                        </div>
-                        <div class="stat">
-                            <div class="stat-number">1M+</div>
-                            <div class="stat-text">Produk Terjual</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    <!-- FOOTER -->
     <footer class="footer">
-        <div class="container-fluid">
-            <div class="footer-content">
-                <div class="footer-column">
-                    <h4 class="footer-title">BrandTalk</h4>
-                    <p class="footer-description">Solusi merchandise dan promosi terpercaya untuk kebutuhan B2B perusahaan modern.</p>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="brand-mark">B</span>
+                        <span class="brand-name">Brandtalk <span class="brand-sub">Advertising</span></span>
+                    </div>
+                    <p class="footer-tagline">Platform cetak souvenir, merchandise, dan barang promosi perusahaan — cepat, terjangkau, terpercaya.</p>
                     <div class="footer-socials">
-                        <a href="#" class="social-link" aria-label="LinkedIn">in</a>
-                        <a href="#" class="social-link" aria-label="Instagram">ig</a>
-                        <a href="#" class="social-link" aria-label="Facebook">fb</a>
+                        <a href="#" class="social-pill" aria-label="Instagram">ig</a>
+                        <a href="#" class="social-pill" aria-label="Facebook">fb</a>
+                        <a href="#" class="social-pill" aria-label="LinkedIn">in</a>
                     </div>
                 </div>
 
-                <div class="footer-column">
-                    <h4 class="footer-title">Layanan</h4>
-                    <ul class="footer-links">
-                        <li><a href="#services">Seminar Kits</a></li>
-                        <li><a href="#services">Corporate Gifting</a></li>
-                        <li><a href="#services">Custom Packaging</a></li>
-                        <li><a href="#rfq">Request for Quotation</a></li>
+                <div class="footer-col">
+                    <h4>Produk</h4>
+                    <ul>
+                        <li><a href="#produk">Souvenir & Merchandise</a></li>
+                        <li><a href="#produk">Mug & Tumbler Custom</a></li>
+                        <li><a href="#produk">Tas & Seminar Kit</a></li>
+                        <li><a href="#produk">Flashdisk Custom</a></li>
+                        <li><a href="#produk">Digital Printing</a></li>
+                        <li><a href="#produk">Plakat & Award</a></li>
                     </ul>
                 </div>
 
-                <div class="footer-column">
-                    <h4 class="footer-title">Perusahaan</h4>
-                    <ul class="footer-links">
-                        <li><a href="#hero">Tentang Kami</a></li>
-                        <li><a href="#value-prop">Mengapa Kami</a></li>
-                        <li><a href="#workflow">Proses Kerja</a></li>
-                        <li><a href="#">Blog & Insights</a></li>
+                <div class="footer-col">
+                    <h4>Layanan</h4>
+                    <ul>
+                        <li><a href="#rfq">Request Penawaran</a></li>
+                        <li><a href="#workflow">Cara Pemesanan</a></li>
+                        <li><a href="#layanan">Mengapa Kami</a></li>
+                        <li><a href="#rfq">Konsultasi Gratis</a></li>
                     </ul>
                 </div>
-                <div class="footer-column">
-                    <h4 class="footer-title">Kontak</h4>
-                    <ul class="footer-links contact-info">
-                        <li class="footer-contact">
-                            <strong>Email:</strong><br>
-                            <a href="mailto:info@brandtalk.id">info@brandtalk.id</a>
-                        </li>
-                        <li class="footer-contact">
-                            <strong>Telepon:</strong><br>
-                            <a href="tel:+621234567890">+62 (21) 1234567</a>
-                        </li>
-                        <li class="footer-contact">
-                            <strong>Alamat:</strong><br>
-                            Jl. Contoh Jaya No. 123, Jakarta Pusat 12345
-                        </li>
+
+                <div class="footer-col">
+                    <h4>Kontak</h4>
+                    <ul class="footer-contacts">
+                        <li><a href="https://wa.me/62123456789">WhatsApp: +62 123 456 789</a></li>
+                        <li><a href="mailto:info@brandtalk.id">info@brandtalk.id</a></li>
+                        <li>Jl. Contoh Jaya No.123, Bandung</li>
                     </ul>
                 </div>
             </div>
 
             <div class="footer-bottom">
+                <p>© 2024 Brandtalk Advertising. Semua hak dilindungi.</p>
                 <div class="footer-legal">
                     <a href="#">Kebijakan Privasi</a>
-                    <span class="legal-separator">|</span>
                     <a href="#">Syarat & Ketentuan</a>
-                    <span class="legal-separator">|</span>
-                    <a href="#">Sitemap</a>
                 </div>
-                <p class="footer-copyright">
-                    © 2024 BrandTalk. Semua hak dilindungi. PT. BrandTalk Indonesia.
-                </p>
             </div>
         </div>
     </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/62123456789" class="wa-float" target="_blank" aria-label="Chat WhatsApp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-9.746 9.798c0 2.719.738 5.377 2.13 7.702l-2.261 8.254 8.427-2.206c2.215 1.201 4.708 1.86 7.297 1.86 5.422 0 9.867-4.41 9.868-9.889 0-2.634-.674-5.194-1.949-7.412-1.276-2.217-3.079-4.158-5.243-5.379C15.416 3.749 12.637 3.012 9.705 3.013z"/></svg>
+    </a>
 
     <script src="script.js"></script>
 </body>
